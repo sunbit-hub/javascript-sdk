@@ -137,10 +137,12 @@ This options works the same as As-Low-As above, except it also add a link to "ch
 You can also use the SDK to make the API calls and use the data. 
 After calling SUNBIT.init:
 The Sunbit api method accepts the following:
+
 | Param | Type | Description |
 | ------ | ------ | ------ |
 | methodName | String | one of the api method names, see list below |
 | config | Object | api call configuration object, see specific api call below |
+
 ### Supported API Calls
 * getPaymentEstimation - Estimate monthly payment amount for multiple items in a single request
 * getOnlineUrl - Get the URL for Sunbit's online checkout - **Requires Location to be set**
