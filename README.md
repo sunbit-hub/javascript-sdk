@@ -137,10 +137,12 @@ This options works the same as As-Low-As above, except it also add a link to "ch
 You can also use the SDK to make the API calls and use the data. 
 After calling SUNBIT.init:
 The Sunbit api method accepts the following:
+
 | Param | Type | Description |
 | ------ | ------ | ------ |
 | methodName | String | one of the api method names, see list below |
 | config | Object | api call configuration object, see specific api call below |
+
 ### Supported API Calls
 * getPaymentEstimation - Estimate monthly payment amount for multiple items in a single request
 * getOnlineUrl - Get the URL for Sunbit's online checkout - **Requires Location to be set**
@@ -181,3 +183,11 @@ SUNBIT.api('getPaymentEstimation', {
     data:[{  "id":"123",  "totalAmount":"600"},{  "id":567, "totalAmount":1200}]
 });
 ```
+
+#### Look and feel examples
+### Link to check financing options
+![Screen Shot 2019-03-19 at 8 30 51](https://user-images.githubusercontent.com/7936419/56213534-df3fb080-6064-11e9-8e90-1fb6c46568a9.png)
+### As-Low-As text element including link to check financing options
+![Screen Shot 2019-03-19 at 8 31 04](https://user-images.githubusercontent.com/7936419/56213535-df3fb080-6064-11e9-828a-b98b912b0f2e.png)
+### As-Low-As text element
+![Screen Shot 2019-03-19 at 8 31 17](https://user-images.githubusercontent.com/7936419/56213537-dfd84700-6064-11e9-9415-03c1c61a58b1.png)
